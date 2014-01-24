@@ -1,4 +1,4 @@
 CommonSAW
 =========
 
-Static Lib for common SAW C++ object
+Static Lib for common SAW C++ object.
