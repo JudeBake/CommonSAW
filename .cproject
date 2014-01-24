@@ -30,6 +30,7 @@
 								<option id="gnu.cpp.compiler.lib.debug.option.debugging.level.1562771798" name="Debug Level" superClass="gnu.cpp.compiler.lib.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1080766111" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DebugCPP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CommonCPP/DateTime}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CommonCPP}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.872252634" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -107,6 +108,7 @@
 								<option id="gnu.cpp.compiler.lib.release.option.debugging.level.281874821" name="Debug Level" superClass="gnu.cpp.compiler.lib.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.143928078" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DebugCPP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CommonCPP/DateTime}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CommonCPP}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1681628122" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>

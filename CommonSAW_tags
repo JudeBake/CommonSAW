@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='ISO-8859-1' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>StockAction.cpp</name>
+    <path>/home/julien/Ubuntu-Dev/SAW/CommonSAW/StockAction/</path>
+    <filename>db/d46/StockAction_8cpp</filename>
+    <includes id="d8/d70/StockAction_8h" name="StockAction.h" local="yes" imported="no">StockAction.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>StockAction.h</name>
+    <path>/home/julien/Ubuntu-Dev/SAW/CommonSAW/StockAction/</path>
+    <filename>d8/d70/StockAction_8h</filename>
+    <class kind="class">StockAction::StockAction</class>
+  </compound>
+  <compound kind="file">
+    <name>StockValue.cpp</name>
+    <path>/home/julien/Ubuntu-Dev/SAW/CommonSAW/StockValue/</path>
+    <filename>dc/d78/StockValue_8cpp</filename>
+    <includes id="d5/d7b/StockValue_8h" name="StockValue.h" local="yes" imported="no">StockValue.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>StockValue.h</name>
+    <path>/home/julien/Ubuntu-Dev/SAW/CommonSAW/StockValue/</path>
+    <filename>d5/d7b/StockValue_8h</filename>
+    <class kind="class">StockAction::StockValue</class>
+  </compound>
+  <compound kind="class">
+    <name>StockAction::StockAction</name>
+    <filename>da/d90/classStockAction_1_1StockAction.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>StockAction::StockValue</name>
+    <filename>da/d3b/classStockAction_1_1StockValue.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>StockValue</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>aef37009d005781261db5c468a6ac7cb6</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>StockValue</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>a1a188730e8b7d92a9e931d0c3c44b3bd</anchor>
+      <arglist>(const double iValue)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>StockValue</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>a7beb5a9b976c88e070d19f3ddf798863</anchor>
+      <arglist>(const double iValue, const DateTime &amp;iTime)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>StockValue</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>af86ddb06d94c70d68063d420d6abade2</anchor>
+      <arglist>(const StockValue &amp;iStockValue)</arglist>
+    </member>
+    <member kind="function">
+      <type>StockValue &amp;</type>
+      <name>operator=</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>a42cdd59fa4b7b1f96c380da3bf3bbac0</anchor>
+      <arglist>(StockValue iStockValue)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setValue</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>ac5be46fc8b7c8f39747372a797f7ede0</anchor>
+      <arglist>(const double iValue)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>getValue</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>a72580b382c368b3d31cc8b5a1705ac62</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>setTime</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>a1699037c9a30e08666f255e98dea97d3</anchor>
+      <arglist>(const DateTime &amp;iTime)</arglist>
+    </member>
+    <member kind="function">
+      <type>DateTime &amp;</type>
+      <name>getTime</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>a731293c31eea14d3b486bd33bda6ad13</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>isValid</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>af1d2ff29a4686e663d984a29f522f516</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~StockValue</name>
+      <anchorfile>da/d3b/classStockAction_1_1StockValue.html</anchorfile>
+      <anchor>a6eefc58f0581cd7eebdc7a90b9ed2f66</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+</tagfile>
