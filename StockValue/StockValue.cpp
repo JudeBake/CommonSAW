@@ -46,7 +46,7 @@ StockValue::StockValue(const StockValue& iStockValue)
 
 	if (timePoint)
 	{
-		*timePoint = iStockValue.timePoint;
+		*timePoint = *iStockValue.timePoint;
 	}
 
 }
@@ -57,7 +57,7 @@ StockValue& StockValue::operator=(StockValue iStockValue)
 
 	if (iStockValue.isValid())
 	{
-		*timePoint = iStockValue.timePoint;
+		*timePoint = *iStockValue.timePoint;
 	}
 
 	return *this;
@@ -75,12 +75,12 @@ double StockValue::getValue(void)
 
 void StockValue::setTime(const DateTime& iTime)
 {
-	timePoint = iTime;
+	*timePoint = iTime;
 }
 
 DateTime& StockValue::getTime(void)
 {
-	return timePoint;
+	return *timePoint;
 }
 
 bool StockValue::isValid(void)
@@ -92,10 +92,10 @@ bool StockValue::isValid(void)
 		validity = false;
 	}
 
-	return timePoint;
+	return validity;
 }
 
-virtual StockValue::~StockValue(void)
+StockValue::~StockValue(void)
 {
 	delete timePoint;
 }

@@ -1,5 +1,6 @@
 /**
  * \file StockAction.h
+ * \class StockAction::StockAction
  * \brief Representation of a stock action.
  *
  * This class represent a stock action. It contains all the information related

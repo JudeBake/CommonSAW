@@ -34,7 +34,9 @@ private:
 	 * the value of the stock action (CAD)
 	 */
 	double value;
-	/* the given time of that value */
+	/**
+	 * the given time of that value
+	 */
 	DateTime* timePoint = NULL;
 
 public:
@@ -63,16 +65,16 @@ public:
 	/**
 	 * \brief StockValue copy constructor.
 	 *
-	 * \param &iStockValue The reference StockValue from which initialized.
+	 * \param iStockValue The StockValue reference from which to initialize.
 	 */
 	StockValue(const StockValue& iStockValue);
 
 	/**
 	 * \brief StockValue assignment operator.
 	 *
-	 * \param iStockValue The StockValue to copy.
+	 * \param iStockValue The right hand operand StockVakue.
 	 *
-	 * \return A new StockValue reference.
+	 * \return StockValue reference of the left hand operand.
 	 */
 	StockValue& operator=(StockValue iStockValue);
 
